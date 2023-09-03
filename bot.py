@@ -41,7 +41,8 @@ async def on_member_remove(member):
 @bot.command()
 async def send_meme(ctx):
     meme_url = 'https://cdn.discordapp.com/attachments/479963532000231424/1145732113186963559/369602742_2014977578862842_7572931396998453032_n.png'
-    await ctx.send(meme_url) 
+    meme1_url = 'https://cdn.vox-cdn.com/thumbor/PSLYCBn2BjUj8Zdbf4BD6SMus-0=/0x0:1800x1179/920x613/filters:focal(676x269:964x557):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/66741310/3zlqxf_copy.0.jpg'
+    await ctx.send(meme1_url) 
 
 
 
